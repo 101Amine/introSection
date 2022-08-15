@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-
+import TodoIcon from "../components/react-icons/todoIcon";
+import '../components/Header.css'
 import Dropdown from "./Dropdown";
 
 const MenuItems = ({ items, depthLevel }) => {
@@ -55,7 +56,10 @@ const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <a href="/#">{items.title}</a>
+        <div className={items.icon ? "d-flex icon-list": "d-flex"}>
+          <i> {items.icon} </i>
+          <a href="/#">{items.title}</a>
+        </div>
       )}
     </li>
   );

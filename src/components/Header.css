@@ -67,8 +67,8 @@
     padding: 0.7rem 1rem;
   }
   
-  .menu-items a:hover,
-  .menu-items button:hover {
+  .d-flex:hover {
+  
     background-color: #f2f2f2;
   }
   
@@ -105,6 +105,21 @@
 
   .dropdown li a {
     padding: 12px;
+  }
+
+  .d-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .d-flex i {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-list {
+    padding-left: 25px;
+    margin-right: 5px;
   }
   
   .dropdown .dropdown-submenu {
