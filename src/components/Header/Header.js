@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../ui/Navbar';
-import logo from '../assets/images/logo.svg'
+import Navbar from '../../ui/Navbar';
+import logo from '../../assets/images/logo.svg'
 import "./Header.css"
 
 function Header(props) {
@@ -8,8 +8,6 @@ function Header(props) {
         <div className='navigation'>   
             <div className='Headerlogo'> <img src={logo} alt='' /></div>
             <Navbar></Navbar>
-
-
             <div className='actions'> 
             
             <button className='btn' onClick={() => console.log('test')} data-type="inverted">

@@ -1,0 +1,45 @@
+.Main {
+    justify-content: center;
+    padding: 5rem;
+    display: grid;
+    gap:10rem;
+    grid-template-columns: 500px 500px;
+}
+
+.Main .right .imgRight{
+    height: 100%;
+    width: 100%;
+}
+
+.Main .left .title {
+    font-size: 50px;
+    font-weight: var(--font-ww-secondary);
+    color: var(--s-secondary-clr);
+    padding-bottom: 2rem;
+    width: 337px;
+}
+
+.Main .left .content {
+    font-size: var(--font-size-primary);
+    color:var(--secondary-clr);
+    width: 400px;
+    padding-bottom: 2rem;
+}
+
+.Main .left .action .btn  {
+    width: 140px;
+    height: 40px;
+    margin-bottom: 7rem;
+}
+
+.Main .left  .sponsors  {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.Main .left .action .btn > span {
+    font-size: 16px;
+    font-weight: var(--font-ww-secondary);
+    border-radius: 0px;
+}

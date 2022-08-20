@@ -50,3 +50,30 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/*
+- Almost White: hsl(0, 0%, 98%)
+- Medium Gray: hsl(0, 0%, 41%)
+- Almost Black: hsl(0, 0%, 8%)
+*/
+
+
+:root {
+  --primary-clr: hsl(0, 0%, 98%);
+  --secondary-clr: hsl(0, 0%, 41%);
+  --s-second-clr: hsl(0, 0%, 8%);
+
+
+  --font-ww-primary: 500;
+  --font-ww-secondary: 700;
+
+
+  --font-size-primary: 18px;
+
+  --size-100: 15px;
+  --size-200: 20px;
+  --size-300: 25px;
+  --size-400: 30px;
+  --size-500: 35px;
+  --size-600: 40px;
+}
